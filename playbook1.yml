@@ -1,5 +1,5 @@
 -
-  name: Play 1
+  name: Play 1-
   hosts: localhost
   tasks:
     - name: Execute command "date"
