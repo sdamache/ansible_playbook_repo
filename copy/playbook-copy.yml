@@ -1,0 +1,8 @@
+- 
+  name: Copy files to target servers
+  hosts: all
+  tasks:
+    - name: Copy files
+      copy:
+            src: ~/Downloads/foo.txt 
+            dest: ~/Downloads/foo.txt
